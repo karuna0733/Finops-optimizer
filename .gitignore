@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+.venv/
+Env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local database files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Mock/local queue files
+*.jsonl
+
+# Terraform & CDKTF local states
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+sandbox/cdktf_app/main.py
+sandbox/applied_resizes.json
+
+# IDE config files
+.idea/
+.vscode/
