@@ -1,0 +1,7 @@
+# Root requirements file for deployment platforms (like Streamlit Community Cloud)
+pydantic>=2.7.1
+langgraph>=0.1.5
+langchain-core>=0.2.5
+requests>=2.32.3
+streamlit>=1.35.0
+pandas>=2.2.2
