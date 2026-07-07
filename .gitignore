@@ -1,11 +1,11 @@
 # Virtual Environment
-venv/
-.venv/
-Env/
-ENV/
+**/venv/
+**/.venv/
+**/Env/
+**/ENV/
 
 # Python cache and compiled files
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -19,11 +19,11 @@ __pycache__/
 *.jsonl
 
 # Terraform & CDKTF local states
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-sandbox/cdktf_app/main.py
-sandbox/applied_resizes.json
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/sandbox/cdktf_app/
+**/sandbox/applied_resizes.json
 
 # IDE config files
 .idea/
