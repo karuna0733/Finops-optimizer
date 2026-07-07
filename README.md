@@ -1,10 +1,6 @@
 # Autonomous Multi-Agent FinOps & Cloud Infrastructure Optimizer
 
-An autonomous multi-agent system built using LangGraph, Pydantic guardrails, and CDKTF to monitor underutilized cloud resources, propose downsizing actions, and execute infrastructure resizes safely.
-
-[![Deploy to Render](https://render.com/images/deploy-to-render.svg)](https://render.com/deploy?repo=https://github.com/karuna0733/Finops-optimizer)
-
----
+An autonomous multi-agent system built using LangGraph, Pydantic guardrails, and CDKTF to monitor underutilized cloud resources, propose downsizing actions, and execute infrastructure resizes safely
 
 ## Architecture Overview
 
@@ -15,24 +11,6 @@ An autonomous multi-agent system built using LangGraph, Pydantic guardrails, and
 5. **Safety Guardrails:** Enforces cooldowns per service (e.g., max 1 resize per 4 hours) and validates instance types against allow-lists.
 6. **Infrastructure as Code (IaC):** Generates CDKTF stack files, verifies changes via simulated/real `cdktf plan`, and deploys.
 7. **Streamlit Dashboard:** Shows live cost savings, fleet cost graphs, and agent audit trails.
-
----
-
-## Deployment Options
-
-### Option 1: One-Click Deploy on Render (Recommended)
-You can deploy the Streamlit Dashboard directly to Render's free tier with a single click:
-1. Click the **Deploy to Render** button above.
-2. Link your GitHub account and authorize Render.
-3. Render will read the repository's `render.yaml` and deploy the dashboard as a Web Service.
-
-### Option 2: Streamlit Community Cloud (Official & Free)
-Streamlit Community Cloud is the best free hosting service for Streamlit:
-1. Log in to [Streamlit Share](https://share.streamlit.io/).
-2. Click **New App**, select your repo (`karuna0733/Finops-optimizer`), branch `main`.
-3. Set the Main File Path to:
-   `finops-optimizer/dashboard/dashboard.py`
-4. Click **Deploy**!
 
 ---
 
