@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: finops-optimizer
+    env: python
+    buildCommand: pip install -r finops-optimizer/requirements.txt
+    startCommand: streamlit run finops-optimizer/dashboard/dashboard.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: USE_SQLITE
+        value: "1"
+      - key: USE_MOCK_KAFKA
+        value: "1"
