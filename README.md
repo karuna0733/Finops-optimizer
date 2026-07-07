@@ -220,5 +220,5 @@ This project is licensed under the MIT License.
 
 ## 👤 Author
 
-**Karunakaran** — Final-year CSE student focused on cybersecurity, ethical hacking, and cloud/AI systems.
+**Karunakaran A** — Final-year CSE student focused on cybersecurity, ethical hacking, and cloud/AI systems.
 [GitHub](https://github.com/karuna0733) · [LinkedIn](https://www.linkedin.com/in/karunakaran-a-88aaa82b9)
